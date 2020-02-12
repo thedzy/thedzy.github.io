@@ -12,7 +12,7 @@ has_toc: true
 ## **_NEVER_** run code you don't understand
 
 I often hear people call themselves 'Copy and paste' coders. And, while copying and pasting is a legitimate thing to do, it should not be your only way of doing things. A better method is to find code, see what is done and then recreate it, and at a bare minimal, copy it, but know exactly what it does. \
-Here is my small example of code that has unintended results.
+Here is my small example of code that has unintended results. 
 
 
 > "Running code you found on the internet is like chewing gum you found in the subway'.  
