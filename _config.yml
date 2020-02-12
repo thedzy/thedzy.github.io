@@ -1,1 +1,48 @@
-theme: jekyll-theme-midnight
+title: "thedzy"
+description: "Quick easy examples of code"
+#baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.thedzy.com"
+
+permalink: pretty
+#exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/images/thedzy_icon.svg"
+
+# Enable or disable the site search
+search_enabled: true
+
+# Set the search token separator for hyphenated-word search:
+search_tokenizer_separator: /[\s/]+/
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "thedzy on GitHub":
+    - "//github.com/thedzy/"
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "Copyright &copy; 2018-2020 thedzy."
+
+# Color scheme currently only supports "dark" or nil (default)
+color_scheme: nil
+
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+ga_tracking: UA-88051787-1
+
+plugins:
+  - jekyll-seo-tag
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+#theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
